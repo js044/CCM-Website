@@ -1,0 +1,167 @@
+html {
+  background: #FFAE83;
+  box-sizing: border-box;
+  overflow-x: hidden;
+	}
+
+a {
+  font-size:1em;
+  color: #FFF380;
+  }
+
+a:hover {
+  color: #FFF380;
+  }
+
+body {
+  font-family: nimbus-sans, sans serif;
+  background-color:#FFAE83;
+  color:#FFF380;
+}
+
+.container {
+  width:90%;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-30%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(30%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.col-lg-4 {
+  margin-top:8vw;
+}
+
+.d-flex {
+  padding:4px;
+  animation: 1s ease-out 0s 1 slideInFromRight;
+}
+.ccm {
+  font-family: nimbus-sans, sans-serif;
+  font-size: 5.3rem;
+  line-height:80%;
+  position: relative;
+  font-weight:700;
+  letter-spacing:-0.3rem;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+@media (min-width: 20em) {
+      .ccm {
+        font-size: 5.1em;
+    }
+}
+
+@media (min-width: 30em) {
+    .ccm {
+        font-size: 5.2em;
+    }
+}
+
+@media (min-width: 54em) {
+    .ccm {
+        font-size: 5.2em;
+    }
+}
+
+@media (min-width: 64em) {
+    .ccm {
+        font-size: 5.3em;
+    }
+}
+
+@media (min-width: 76.5em) {
+    .ccm {
+        font-size: 5.3em;
+    }
+}
+
+@media (min-width: 114em) {
+    .ccm {
+        font-size: 5.6em;
+    }
+}
+
+.enter {
+  font-family: 'Inconsolata', monospace;
+  border: 1px solid #FFF380;
+  padding: 0.75vh;
+  margin-top: 4.5vh;
+  width:20rem;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+  }
+
+.btn {
+  color:inherit;
+  }
+
+.btn-white {
+  height: 5.25em;
+  width: 5.25em;
+  border-style: none;
+  background-color: #FFF;
+  border-radius: 50%;
+  display: inline-block;
+  }
+
+  .btn-yellow {
+  border-style: none;
+  height: 5.25rem;
+  width: 5.25rem;
+  background-color: #FFF380;
+  border-radius: 50%;
+  display: inline-block;
+  }
+
+  .btn-red {
+  border-style: none;
+  height: 5.25rem;
+  width: 5.25rem;
+  background-color: #FC723F;
+  border-radius: 50%;
+  display: inline-block;
+  }
+
+  .btn-pink {
+  border: 1px solid #FFF380;
+  height: 5.25em;
+  width: 5.25em;
+  background-color: #FFAE83;
+  border-radius: 50%;
+  display: inline-block;
+  }
+
+  .btn-green {
+  border-style: none;
+  height: 5.25em;
+  width: 5.25em;
+  background-color: #94EFA2;
+  border-radius: 50%;
+  display: inline-block;
+  }
+
+  .btn-blue {
+  border-style: none;
+  height: 5.25em;
+  width: 5.25em;
+  background-color: #657CFF;
+  border-radius: 50%;
+  display: inline-block;
+  }

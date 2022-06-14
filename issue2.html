@@ -1,0 +1,429 @@
+<!-- HEADER -->
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Cicada Creative Magazine</title>
+  <meta name="description" content="Stay creative.">
+
+    <link rel="shortcut icon" href="https://66.media.tumblr.com/86acba4334b9fcb3879b2fa08fed89f0/d7188948235fd399-eb/s1280x1920/a3a0338676d64fc7951cb4d110a1564f3827d354.png">
+
+<!-- ONLINE STYLESHEETS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.typekit.net/cqp2hlg.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+<!-- LOCAL STYLESHEETS -->
+<link rel="stylesheet" type="text/css" href="styles/pages/white_pages.css" title="white">
+<link rel="stylesheet" type="text/css" href="styles/pages/yellow_pages.css" title="yellow">
+<link rel="stylesheet" type="text/css" href="styles/pages/red_pages.css" title="red">
+<link rel="stylesheet" type="text/css" href="styles/pages/pink_pages.css" title="pink">
+<link rel="stylesheet" type="text/css" href="styles/pages/green_pages.css" title="green">
+<link rel="stylesheet" type="text/css" href="styles/pages/blue_pages.css" title="blue">
+</head>
+<body onload="set_style_from_cookie()">
+
+<a name="top"></a>
+<div class="post_container">
+<!--ROW 1 (TITLE/ARROW) -->
+  <div class="row">
+  <div class="col">
+    <div class="post_title"> <br><br>Moment of Impact
+    </div>
+  </div>
+
+  <div class="col-auto">
+  <div class="post_title">11<br><br>2
+  </div>
+  </div>
+  </div>
+
+<!--ROW 2 (CONTENT/PERMA) -->
+<div class="row">
+  <div class="col">
+    <div class="para1">
+      In our lives, minutes and hours collect gradually - building our lives, for the most part, in slow burns. Most of our time belongs to the spaces between moments of magnitude, but when we create, this pacing does not apply. We are free to build isolated moments that punch, that pressurize, that make us feel - endlessly. In Issue 02, we’ve curated a collection of these moments, all characterized by the life cycle of a Moment of Impact - intensity, irreversibility, release, clarity. There is a humanness in experiencing the brute force of cataclysmic change. We feel the weight of the step we can’t take back. This semester, Cicada Creative Magazine has framed forty-two pieces that demonstrate this unalterable trice.
+    </div>
+  </div>
+<div class="col-auto">
+  <div class="permalink"> <br>CCM 2 <br>
+    12-29-19 <br> Fall
+  </div>
+</div>
+</div>
+
+<input id="burger" type="checkbox" style="opacity:0";>
+<label for="burger">
+    <span></span>
+    <span></span>
+    <span></span>
+</label>
+<nav>
+  <div class="row">
+    <div class="col">
+      <div class="svg">
+      </div>
+    </div>
+<div class="issue"> <p>Issues: CCM 2
+</div>
+</div>
+  <ul>
+    <li><a href="https://cicadacreativemag.com">Home</a></li>
+    <li><a href="https://cicadacreativemag.com/about.html">About</a></li>
+    <li><a href="https://cicadacreativemag.com/staff.html">Staff</a></li>
+    <li><a href="https://cicadacreativemag.com/issues.html">Issues</a></li>
+    <li><a href="https://blog.cicadacreativemag.com">Blog</a></li>
+    <li><a href="https://cicadacreativemag.com/submit.html">Submit</a></li>
+    <li><a href="https://cicadacreativemag.com/contact.html">Contact</a></li>
+  </ul>
+<div class="button_group">
+<div class="col">
+  <!-- BUTTON GROUP 1 (BLUE) -->
+  <div class="d-flex flex-row-reverse">
+    <div class="order-1 p-1 ">
+      <button type="button" class="btn btn-blue" onclick="switch_style('blue');return false;" name="blue theme" value="Blue Theme" id="blue"></button>
+    </div>
+  </div>
+
+  <!-- BUTTON GROUP 2 (GREEN & PINK) -->
+  <div class="d-flex flex-row-reverse">
+    <div class="order-1 p-1">
+      <button type="button" class="btn btn-green" onclick="switch_style('green');return false;" name="green theme" value="Green Theme" id="green"></button>
+    </div>
+    <div class="order-2 p-1">
+      <button type="button" class="btn btn-pink" onclick="switch_style('pink');return false;" name="pink theme" value="Pink Theme" id="pink"></button>
+    </div>
+  </div>
+
+  <!-- BUTTON GROUP 3 (BR, YELLOW, & RED) -->
+  <div class="d-flex flex-row-reverse">
+    <div class="order-1 p-1">
+        <button type="button" class="btn btn-white" onclick="switch_style('white');return false;" name="white theme" value="White Theme" id="white"></button>
+      </div>
+  <div class="order-2 p-1">
+      <button type="button" class="btn btn-yellow" onclick="switch_style('yellow');return false;" name="yellow theme" value="Yellow Theme" id="yellow"></button>
+    </div>
+  <div class="order-3 p-1">
+      <button type="button" class="btn btn-red" onclick="switch_style('red');return false;" name="red theme" value="Red Theme" id="red"></button>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+</nav>
+
+<div class="cards">
+
+<!-- COVER -->
+  <a href="https://cicadacreativemag.com/issue2/cover2.html">
+    <img src="images/issue2/thumb/cover2.jpg"
+    alt="The cover">
+  </a>
+
+<!-- EDITOR'S NOTE -->
+<a href="https://cicadacreativemag.com/issue2/note.html"><div class="box">
+  <p>Editor's Note</p>
+    </div></a>
+
+ <!--#1 CRUMPLE VASE -->
+      <a href="https://cicadacreativemag.com/issue2/crumplevase.html">
+      <img src="images/issue2/transparent/1_nyback.png"
+      alt="Crumple Vase">
+      </a>
+
+<!-- #2 US AS PARENTS -->
+<a href="https://cicadacreativemag.com/issue2/usasparents.html"><div class="box">
+  <p>Us as Parents</p>
+    </div></a>
+
+<!-- #3 INVASION -->
+      <a href="https://cicadacreativemag.com/issue2/invasion.html">
+        <img src="images/issue2/transparent/3_macdonald.png"
+        alt="Invasion">
+      </a>
+
+<!-- #4 SELF DIMENSION -->
+    <a href="https://cicadacreativemag.com/issue2/selfdimension.html">
+      <img src="images/issue2/thumb/4_selfdimension.jpg"
+      alt="Self Dimension">
+    </a>
+
+<!-- #5 DEER -->
+    <a href="https://cicadacreativemag.com/issue2/deer.html">
+      <img src="images/issue2/transparent/5_macdonald.png"
+      alt="Deer Withstanding">
+    </a>
+
+<!-- #6 MOTHER -->
+  <a href="https://cicadacreativemag.com/issue2/mother.html"><div class="box">
+  <p>Mother Tongue</p>
+    </div></a>
+
+<!-- #7 FLESH -->
+    <a href="https://cicadacreativemag.com/issue2/flesh.html">
+      <img src="images/issue2/transparent/7_haley.png"
+      alt="Flesh">
+    </a>
+
+<!-- #8 BURY IT -->
+<a href="https://cicadacreativemag.com/issue2/buryit.html"><div class="box">
+  <p>Bury It</p>
+    </div></a>
+
+<!-- #9 TRANSPLANT -->
+      <a href="https://cicadacreativemag.com/issue2/transplant.html">
+        <img src="images/issue2/transparent/9_hillbrand.png"
+         alt="Transplant">
+      </a>
+
+<!-- #10 TO YOU -->
+      <a href="https://cicadacreativemag.com/issue2/toyou.html">
+        <img src="images/issue2/transparent/10_Kim.png"
+        alt="A wodden board with Korean Hangul characters engraved into them.">
+      </a>
+
+<!-- #11 MIDNIGHT -->
+<a href="https://cicadacreativemag.com/issue2/midnight.html"><div class="box">
+  <p>Midnight</p>
+    </div></a>
+
+<!-- #12 SYMBOL -->
+      <a href="https://cicadacreativemag.com/issue2/symbol.html">
+        <img src="images/issue2/transparent/12_reilly.png"
+        alt="Symbol">
+      </a>
+
+<!-- #13 WOOLGATHER -->
+  <a href="https://cicadacreativemag.com/issue2/woolgather.html"><div class="box">
+    <p>Woolgather</p>
+      </div></a>
+
+<!-- #14 RAKU -->
+      <a href="https://cicadacreativemag.com/issue2/rakuvase.html">
+        <img src="images/issue2/transparent/14_nyback.png"
+        alt="Raku vase">
+      </a>
+
+<!-- #15 GLIMMER -->
+      <a href="https://cicadacreativemag.com/issue2/glimmerofhope.html">
+        <img src="images/issue2/thumb/15_glimmerofhope.jpg"
+        alt="Glimmer of Hope">
+      </a>
+
+<!-- #16 LIBRARY -->
+      <a href="https://cicadacreativemag.com/issue2/omahalibrary.html">
+        <img src="images/issue2/thumb/15_omahalibrary.jpg"
+         alt="Omaha Library">
+      </a>
+
+<!-- #16 JUDITH -->
+      <a href="https://cicadacreativemag.com/issue2/judith.html">
+        <img src="images/issue2/thumb/16_judith.jpg"
+        alt="Judith">
+      </a>
+
+<!-- #17 ALMS -->
+      <a href="https://cicadacreativemag.com/issue2/alms.html">
+        <img src="images/issue2/transparent/17_Zynda.png"
+        alt="Alms">
+      </a>
+
+<!-- #18 KAPOW -->
+      <a href="https://cicadacreativemag.com/issue2/kapow.html">
+        <img src="images/issue2/thumb/18_kapow.jpg"
+        alt="Kapow">
+      </a>
+
+<!-- #19 DISORDER -->
+      <a href="https://cicadacreativemag.com/issue2/disorder.html">
+        <img src="images/issue2/thumb/19_disorder.jpg"
+        alt="Family History of Disorder">
+      </a>
+
+<!-- #20 THE FLOWERS OUT FRONT -->
+  <a href="https://cicadacreativemag.com/issue2/flowers.html"><div class="box">
+    <p>The Flowers Out Front</p>
+      </div></a>
+
+<!-- #21 FRAGILITY -->
+      <a href="https://cicadacreativemag.com/issue2/fragility.html">
+        <img src="images/issue2/transparent/22_bosch.png"
+        alt="Fragility">
+      </a>
+
+<!-- #22 SNOW -->
+<a href="https://cicadacreativemag.com/issue2/snow.html"><div class="box">
+  <p>Snow Falls Inside of me</p>
+    </div></a>
+
+<!-- #23 COMPOSED ANXIETY -->
+      <a href="https://cicadacreativemag.com/issue2/composed.html">
+        <img src="images/issue2/transparent/23_Zynda.png"
+        alt="Composed Anxiety Trip(tych)">
+      </a>
+
+<!-- #26 SPRING -->
+      <a href="https://cicadacreativemag.com/issue2/spring.html">
+        <img src="images/issue2/transparent/26_Kim.png"
+        alt="Spring">
+      </a>
+
+<!-- #26 NOCTURNE -->
+<a href="https://cicadacreativemag.com/issue2/nocturne.html"><div class="box">
+  <p>Nocturne</p>
+    </div></a>
+
+<!-- #28 NATURE -->
+      <a href="https://cicadacreativemag.com/issue2/geraets.html">
+        <img src="images/issue2/thumb/28_geraets.jpg"
+        alt="Gift of the Daughter of Nature">
+      </a>
+
+<!-- #29 TEN DAYS -->
+      <a href="https://cicadacreativemag.com/issue2/ten.html">
+        <img src="images/issue2/thumb/29_tendays.jpg"
+        alt="A wide white strip of paper with colors splashed across it.">
+      </a>
+
+<!-- #30 ADAMS RIB -->
+<a href="https://cicadacreativemag.com/issue2/adam.html"><div class="box">
+  <p>Adam's Rib</p>
+    </div></a>
+
+<!-- #31 SOILWATERSKY -->
+      <a href="https://cicadacreativemag.com/issue2/soilwatersky.html">
+        <img src="images/issue2/transparent/31_hillbrand.png"
+        alt="Soil Water Sky">
+      </a>
+
+<!-- #32 NOTABLE -->
+      <a href="https://cicadacreativemag.com/issue2/notable.html">
+        <img src="images/issue2/thumb/32_notable.jpg"
+        alt="Notable Persons">
+      </a>
+
+<!-- #33 VITALITY -->
+      <a href="https://cicadacreativemag.com/issue2/vitality.html">
+        <img src="images/issue2/thumb/33_vitality.jpg"
+        alt="A fox with purple eyes and an orange amulet draped on its head. It is surrounded by a circle of natural elements.">
+      </a>
+
+<!-- #34 PIECES -->
+<a href="https://cicadacreativemag.com/issue2/pieces.html"><div class="box">
+  <p>Pieces</p>
+    </div></a>
+
+<!-- #35 FUTURE -->
+      <a href="https://cicadacreativemag.com/issue2/future.html">
+        <img src="images/issue2/thumb/35_future.jpg"
+        alt="A threaded black strip of fabric with four figures and a crescent shape along with two other round shapes.">
+      </a>
+
+<!-- #36 TOSKA TAP -->
+<a href="https://cicadacreativemag.com/issue2/toska.html"><div class="box">
+  <p>Toska Tap</p>
+    </div></a>
+
+<!-- #36 RIVERA -->
+      <a href="https://cicadacreativemag.com/issue2/orbiting.html">
+        <img src="images/issue2/thumb/36_orbiting.jpg"
+        alt="A round black object photographed in motion, its prongs making triangle shapes as it spins.">
+      </a>
+
+<!-- #37 BERCEUSE -->
+<a href="https://cicadacreativemag.com/issue2/berceuse.html"><div class="box">
+  <p>Berceuse</p>
+    </div></a>
+
+<!-- #38 UMI -->
+    <a href="https://cicadacreativemag.com/issue2/umi.html">
+      <img src="images/issue2/thumb/38_umi.jpg"
+      alt="Three woodland creatures are exploring a surreal tree that has large coral and pink flowers.">
+    </a>
+
+<!-- #39 ORGANIC -->
+  <a href="https://cicadacreativemag.com/issue2/organic.html">
+    <div class="box">
+      <p>Organic</p>
+          </div></a>
+
+<!-- #40 ANXIETY -->
+  <a href="https://cicadacreativemag.com/issue2/anxietytrip.html">
+    <img src="images/issue2/transparent/40_polly.png"
+    alt="Anxiety Trip(tych)">
+  </a>
+
+  <!-- #41 ALL NIGHT LOVE -->
+  <a href="https://cicadacreativemag.com/issue2/love.html">
+    <div class="box">
+      <p>All Night Love</p>
+          </div></a>
+
+  <!-- #42 TOWNSHIPS FARMHOUSE-->
+    <a href="https://cicadacreativemag.com/issue2/townships.html">
+      <img src="images/issue2/thumb/42_townshipsfarmhouse.jpg"
+      alt="A crosshatched ink building in front of another building with a textured background.">
+    </a>
+
+<!-- END OF GALLERY -->
+</div>
+
+
+<!--FOOTER-->
+
+<div class="footer">
+
+  <div class="row">
+    <div class="column">
+
+        <!-- MAILCHIMP -->
+                <div id="mc_embed_signup">
+                  <form action="https://cicadacreativemag.us10.list-manage.com/subscribe/post?u=cac1af256f84d29828cf62547&amp;id=571680a824" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <div id="mc_embed_signup_scroll">
+                Subscribe to our newsletter! <br>
+                <div class="mc-field-group"><input type="email" placeholder="Your Email" name="EMAIL" class="required email" id="mce-EMAIL"></div>
+        	       <div id="mce-responses" class="clear">
+        		         <div class="response" id="mce-error-response" style="display:none"></div>
+        		           <div class="response" id="mce-success-response" style="display:none"></div>
+        	            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cac1af256f84d29828cf62547_571680a824" tabindex="-1" value=""></div>
+                      <div class="clear"><input type="submit" value="OK" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                    </div>
+                  </form>
+                </div>
+                <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+                <!--End mc_embed_signup-->
+
+
+    </div>
+    <div class="column"><div class="top-column">
+        <a href="#top"><i class="fas fa-angle-up"></i></a><br>
+        <a href="#top">Top</a>
+</div>
+    </div>
+
+    <div class="column">
+      <div class="right-column">
+      <a href="https://www.instagram.com/cicadacreativemag"><i class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com/cicadacreatemag"><i class="fab fa-twitter"></i></a><br>
+              <a href="mailto:info@cicadacreativemag.com">Contact</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+<!-- ONLINE SCRIPTS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<!-- LOCAL SCRIPTS -->
+<script src="js/jquery-11.0.min.js"></script>
+<script src="js/theme.js"></script>
+
+</body>
+</html>

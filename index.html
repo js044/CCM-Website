@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Cicada Creative Magazine</title>
+  <meta name="description" content="Stay creative.">
+  <link rel="shortcut icon" href="https://66.media.tumblr.com/86acba4334b9fcb3879b2fa08fed89f0/d7188948235fd399-eb/s1280x1920/a3a0338676d64fc7951cb4d110a1564f3827d354.png">
+
+<!-- ONLINE STYLESHEETS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.typekit.net/cqp2hlg.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- LOCAL STYLESHEETS -->
+    <link rel="stylesheet" type="text/css" href="styles/landing/white_landing.css" title="white">
+    <link rel="stylesheet" type="text/css" href="styles/landing/yellow_landing.css" title="yellow">
+    <link rel="stylesheet" type="text/css" href="styles/landing/red_landing.css" title="red">
+    <link rel="stylesheet" type="text/css" href="styles/landing/pink_landing.css" title="pink">
+    <link rel="stylesheet" type="text/css" href="styles/landing/green_landing.css" title="green">
+    <link rel="stylesheet" type="text/css" href="styles/landing/blue_landing.css" title="blue">
+  </head>
+
+<body onload="set_style_from_cookie()">
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col col-lg-4" >
+      <div class="row justify-content-center">
+        <div class="ccm">
+          Cicada <br>
+          Creative <br>
+          Magazine <br>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <a href="https://cicadacreativemag.com/issues.html">
+          <div class="enter">
+            <button type="button" class="btn">Choose a color & enter.
+              <i class='fa fa-long-arrow-right'></i>
+            </button>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col col-lg-4">
+      <div class="button_group">
+        <!-- BUTTON GROUP 1 (BLUE) -->
+          <div class="d-flex flex-row-reverse">
+            <div class="order-1 p-2 ">
+              <button type="button" class="btn btn-blue" onclick="switch_style('blue');return false;" name="blue theme" value="Blue Theme" id="blue">
+              </button>
+            </div>
+          </div>
+
+          <!-- BUTTON GROUP 2 (GREEN & PINK) -->
+          <div class="d-flex flex-row-reverse">
+            <div class="order-1 p-1">
+              <button type="button" class="btn btn-green" onclick="switch_style('green');return false;" name="green theme" value="Green Theme" id="green">
+              </button>
+            </div>
+            <div class="order-2 p-1">
+              <button type="button" class="btn btn-pink" onclick="switch_style('pink');return false;" name="pink theme" value="Pink Theme" id="pink">
+              </button>
+            </div>
+          </div>
+
+          <!-- BUTTON GROUP 3 (BR, YELLOW, & RED) -->
+          <div class="d-flex flex-row-reverse">
+            <div class="order-1 p-1">
+              <button type="button" class="btn btn-white" onclick="switch_style('white');return false;" name="white theme" value="White Theme" id="white">
+              </button>
+            </div>
+            <div class="order-2 p-1">
+              <button type="button" class="btn btn-yellow" onclick="switch_style('yellow');return false;" name="yellow theme" value="Yellow Theme" id="yellow">
+              </button>
+            </div>
+            <div class="order-3 p-1">
+              <button type="button" class="btn btn-red" onclick="switch_style('red');return false;" name="red theme" value="Red Theme" id="red">
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- ONLINE SCRIPTS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<!-- LOCAL SCRIPTS -->
+<script src="js/jquery-11.0.min.js"></script>
+<script src="js/theme.js"></script>
+
+</body>
+</html>
